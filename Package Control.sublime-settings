@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"Color Highlight",
+		"CSS3",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"EditorConfig",
+		"Emmet",
+		"ESLint Fix",
+		"Gofmt",
+		"Handlebars",
+		"HTML-CSS-JS Prettify",
+		"JSCustom",
+		"JSON Key-Value",
+		"LSP",
+		"Meetio",
+		"Naomi",
+		"nginx",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-stylelint",
+		"SyncedSideBar"
+	]
+}

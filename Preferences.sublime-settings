@@ -1,0 +1,19 @@
+{
+	"binary_file_patterns":
+	[
+		"*/dist/*"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Naomi",
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"meetio_compact_sidebar": true,
+	"meetio_sidebar_font_big": false,
+	"scroll_past_end": true,
+	"theme": "Adaptive.sublime-theme"
+}

@@ -1,0 +1,18 @@
+{
+	"configurations": {
+		"Babel": {
+			"file_extensions": ["js", "mjs"],
+			"jsx": true,
+			"string_object_keys": true,
+			"name": "JavaScript (Babel)",
+			"hidden": false
+		},
+		"React": {
+			"file_extensions": ["jsx"],
+			"jsx": true,
+			"string_object_keys": true,
+			"name": "JavaScript (React)",
+			"hidden": false
+		}
+	}
+}

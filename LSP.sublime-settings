@@ -1,0 +1,90 @@
+{
+	"auto_show_diagnostics_panel": false,
+	"clients":
+	{
+		"css":
+		{
+			"command":
+			[
+				"node",
+				"/usr/local/lib/node_modules/vscode-css-languageserver-bin/cssServerMain.js",
+				"--stdio"
+			],
+			"enabled": true,
+			"languages":
+			[
+				{
+					"languageId": "css",
+					"scopes":
+					[
+						"source.css"
+					],
+					"syntaxes":
+					[
+						"Packages/CSS/CSS.sublime-syntax",
+						"Packages/CSS3/CSS3.sublime-syntax"
+					]
+				},
+				{
+					"languageId": "scss",
+					"scopes":
+					[
+						"source.scss"
+					],
+					"syntaxes":
+					[
+						"Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+					]
+				}
+			]
+		},
+		"golsp":
+		{
+			"command":
+			[
+				"bingo"
+			],
+			"enabled": true,
+			"languageId": "go",
+			"scopes":
+			[
+				"source.go"
+			],
+			"syntaxes":
+			[
+				"Packages/Go/Go.sublime-syntax"
+			]
+		},
+		"js":
+		{
+			"command":
+			[
+				"lsp-tsserver"
+			],
+			"enabled": true,
+			"languageId": "javascript",
+			"scopes":
+			[
+				"source.js",
+				"source.jsx",
+				"source.js.babel",
+				"source.js.react"
+			],
+			"syntaxes":
+			[
+				"Packages/JavaScript/JavaScript.sublime-syntax",
+				"Packages/babel-sublime/JavaScript (Babel).tmLanguage",
+				"Packages/zzz A File Icon zzz/aliases/JavaScript (Webpack).sublime-syntax",
+				"Packages/zzz A File Icon zzz/aliases/JavaScript (ESLint).sublime-syntax",
+				"Packages/Naomi/syntaxes/naomi.fjsx15.sublime-syntax",
+				"Packages/User/JS Custom/Syntaxes/Babel.sublime-syntax",
+				"Packages/User/JS Custom/Syntaxes/React.sublime-syntax"
+			]
+		}
+	},
+	"diagnostics_highlight_style": "box",
+	"show_diagnostics_count_in_view_status": true,
+	"show_diagnostics_in_view_status": false,
+	"show_references_in_quick_panel": true,
+	"diagnostics_highlight_style": "box"
+}
