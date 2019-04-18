@@ -24,11 +24,13 @@
 		"Meetio",
 		"nginx",
 		"Package Control",
+		"ProjectManager",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-stylelint",
-		"SyncedSideBar"
+		"SyncedSideBar",
+		"Terminal"
 	]
 }
