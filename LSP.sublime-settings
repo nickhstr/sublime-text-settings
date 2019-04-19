@@ -38,11 +38,11 @@
 				}
 			]
 		},
-		"golsp":
+		"gopls":
 		{
 			"command":
 			[
-				"bingo"
+				"gopls"
 			],
 			"enabled": true,
 			"languageId": "go",
@@ -82,7 +82,6 @@
 			]
 		}
 	},
-	"diagnostics_highlight_style": "box",
 	"show_diagnostics_count_in_view_status": true,
 	"show_diagnostics_in_view_status": false,
 	"show_references_in_quick_panel": true,
