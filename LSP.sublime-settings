@@ -2,7 +2,7 @@
 	"auto_show_diagnostics_panel": false,
 	"clients":
 	{
-		"css":
+		"css-lsp":
 		{
 			"command":
 			[
@@ -55,7 +55,7 @@
 				"Packages/Go/Go.sublime-syntax"
 			]
 		},
-		"js":
+		"js-lsp":
 		{
 			"command":
 			[
