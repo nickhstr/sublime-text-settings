@@ -61,6 +61,32 @@
 			[
 				"lsp-tsserver"
 			],
+			"enabled": false,
+			"languageId": "javascript",
+			"scopes":
+			[
+				"source.js",
+				"source.jsx",
+				"source.js.babel",
+				"source.js.react"
+			],
+			"syntaxes":
+			[
+				"Packages/JavaScript/JavaScript.sublime-syntax",
+				"Packages/babel-sublime/JavaScript (Babel).tmLanguage",
+				"Packages/zzz A File Icon zzz/aliases/JavaScript (Webpack).sublime-syntax",
+				"Packages/zzz A File Icon zzz/aliases/JavaScript (ESLint).sublime-syntax",
+				"Packages/Naomi/syntaxes/naomi.fjsx15.sublime-syntax",
+				"Packages/User/JS Custom/Syntaxes/Babel.sublime-syntax",
+				"Packages/User/JS Custom/Syntaxes/React.sublime-syntax"
+			]
+		},
+		"js-ts-lsp":
+		{
+			"command":
+			[
+				"javascript-typescript-stdio"
+			],
 			"enabled": true,
 			"languageId": "javascript",
 			"scopes":
