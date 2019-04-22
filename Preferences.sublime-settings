@@ -19,7 +19,7 @@
 	"material_theme_titlebar": true,
 	"meetio_compact_sidebar": true,
 	"meetio_sidebar_font_big": false,
+	"open_files_in_new_window": false,
 	"scroll_past_end": true,
-	"theme": "Adaptive.sublime-theme",
-	"open_files_in_new_window": false
+	"theme": "Adaptive.sublime-theme"
 }
