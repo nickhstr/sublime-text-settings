@@ -4,7 +4,7 @@
 		"*/dist/*"
 	],
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"find_selected_text": true,
 	"font_size": 12,
 	"ignored_packages":
@@ -14,7 +14,9 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"material_theme_compact_panel": true,
 	"material_theme_compact_sidebar": true,
+	"material_theme_disable_folder_animation": true,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
@@ -23,5 +25,5 @@
 	"meetio_sidebar_font_big": false,
 	"open_files_in_new_window": false,
 	"scroll_past_end": true,
-	"theme": "Adaptive.sublime-theme"
+	"theme": "Material-Theme-Darker.sublime-theme"
 }
