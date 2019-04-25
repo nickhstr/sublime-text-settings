@@ -1,7 +1,10 @@
 {
 	"binary_file_patterns":
 	[
-		"*/dist/*"
+		"*/dist/*",
+		"*/.cache/*",
+		"*/.git/*",
+		"*/node_modules/*"
 	],
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
