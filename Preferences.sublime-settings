@@ -4,7 +4,9 @@
 		"*/dist/*",
 		"*/.cache/*",
 		"*/.git/*",
-		"*/node_modules/*"
+		"*/node_modules/*",
+		"*/es/*",
+		"*/lib/*"
 	],
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
