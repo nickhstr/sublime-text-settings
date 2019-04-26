@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"All Autocomplete",
 		"Color Highlight",
 		"ColorPicker",
 		"CSS3",
@@ -30,6 +31,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
+		"SublimeLinter-json",
 		"SublimeLinter-stylelint",
 		"SyncedSideBar",
 		"Terminal"
