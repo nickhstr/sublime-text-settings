@@ -83,28 +83,42 @@
 		},
 		"js-ts-lsp":
 		{
-			"command":
-			[
-				"javascript-typescript-stdio"
-			],
+			"command": ["javascript-typescript-stdio"],
 			"enabled": true,
-			"languageId": "javascript",
-			"scopes":
-			[
-				"source.js",
-				"source.jsx",
-				"source.js.babel",
-				"source.js.react"
-			],
-			"syntaxes":
-			[
-				"Packages/JavaScript/JavaScript.sublime-syntax",
-				"Packages/babel-sublime/JavaScript (Babel).tmLanguage",
-				"Packages/zzz A File Icon zzz/aliases/JavaScript (Webpack).sublime-syntax",
-				"Packages/zzz A File Icon zzz/aliases/JavaScript (ESLint).sublime-syntax",
-				"Packages/Naomi/syntaxes/naomi.fjsx15.sublime-syntax",
-				"Packages/User/JS Custom/Syntaxes/Babel.sublime-syntax",
-				"Packages/User/JS Custom/Syntaxes/React.sublime-syntax"
+			"languages": [
+				{
+					"languageId": "javascript",
+					"scopes":
+					[
+						"source.js",
+						"source.jsx",
+						"source.js.babel",
+						"source.js.react"
+					],
+					"syntaxes":
+					[
+						"Packages/JavaScript/JavaScript.sublime-syntax",
+						"Packages/babel-sublime/JavaScript (Babel).tmLanguage",
+						"Packages/zzz A File Icon zzz/aliases/JavaScript (Webpack).sublime-syntax",
+						"Packages/zzz A File Icon zzz/aliases/JavaScript (ESLint).sublime-syntax",
+						"Packages/Naomi/syntaxes/naomi.fjsx15.sublime-syntax",
+						"Packages/User/JS Custom/Syntaxes/Babel.sublime-syntax",
+						"Packages/User/JS Custom/Syntaxes/React.sublime-syntax"
+					]
+				},
+				{
+					"languageId": "javascript",
+					"scopes":
+					[
+						"source.ts",
+						"source.tsx",
+					],
+					"syntaxes":
+					[
+						"Packages/TypeScript Syntax/TypeScript.tmLanguage",
+						"Packages/TypeScript Syntax/TypeScriptReact.tmLanguage"
+					]
+				}
 			]
 		}
 	},
