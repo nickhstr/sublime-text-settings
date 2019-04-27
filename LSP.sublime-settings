@@ -61,7 +61,7 @@
 			[
 				"lsp-tsserver"
 			],
-			"enabled": true,
+			"enabled": false,
 			"languageId": "javascript",
 			"scopes":
 			[
@@ -87,7 +87,7 @@
 			[
 				"javascript-typescript-stdio"
 			],
-			"enabled": false,
+			"enabled": true,
 			"languageId": "javascript",
 			"scopes":
 			[
