@@ -21,18 +21,19 @@
 		"*/es/*",
 		"*/lib/*"
 	],
-	"folder_exclude_patterns": [
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
 		".svn",
 		".git",
 		".hg",
 		"CVS",
 		".golangci-*",
-        ".golangcilint-*",
-        ".gometalinter-*"
+		".golangcilint-*",
+		".gometalinter-*"
 	],
-	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-	"find_selected_text": true,
 	"font_size": 12,
 	"ignored_packages":
 	[
