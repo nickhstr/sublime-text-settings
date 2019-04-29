@@ -1,9 +1,4 @@
 // SublimeLinter Settings - User
 {
-	"show_panel_on_save": "view",
-	"linters": {
-		"eslint": {
-			"executable": ["eslint_d"]
-		}
-	}
+	"show_panel_on_save": "view"
 }
