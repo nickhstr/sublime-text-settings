@@ -125,5 +125,6 @@
 	"show_diagnostics_count_in_view_status": true,
 	"show_diagnostics_in_view_status": false,
 	"show_references_in_quick_panel": true,
-	"diagnostics_highlight_style": "box"
+	"diagnostics_highlight_style": "box",
+	"document_highlight_style": ""
 }
