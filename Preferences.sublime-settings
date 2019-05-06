@@ -37,7 +37,7 @@
 	"font_size": 12,
 
 	// Set to false due to NSOpenGLView bugs (https://forum.sublimetext.com/t/sublime-text-3-memory-leak-in-mojave-14-4-in-version-3-2-1-build-3207/43442/2)
-	"gpu_window_buffer": false,
+	// "gpu_window_buffer": false,
 	"ignored_packages":
 	[
 		"Vintage"
