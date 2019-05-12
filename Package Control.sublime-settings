@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AutoFileName",
 		"Color Highlight",
 		"ColorPicker",
 		"CSS3",
@@ -26,6 +27,7 @@
 		"nginx",
 		"Package Control",
 		"ProjectManager",
+		"QML",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeLinter",
