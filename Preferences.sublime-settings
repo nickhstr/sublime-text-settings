@@ -1,4 +1,5 @@
 {
+	"afn_use_keybinding": true,
 	"binary_file_patterns":
 	[
 		"*.jpg",
