@@ -38,7 +38,6 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"LSP",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,

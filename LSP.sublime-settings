@@ -58,10 +58,8 @@
 		"js-lsp":
 		{
 			"command":
-			[
-				"lsp-tsserver"
-			],
-			"enabled": false,
+			["typescript-language-server", "--stdio"],
+			"enabled": true,
 			"languageId": "javascript",
 			"scopes":
 			[
@@ -84,7 +82,7 @@
 		"js-ts-lsp":
 		{
 			"command": ["javascript-typescript-stdio"],
-			"enabled": true,
+			"enabled": false,
 			"languages": [
 				{
 					"languageId": "javascript",
