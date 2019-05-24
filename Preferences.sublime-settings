@@ -1,5 +1,6 @@
 {
 	"afn_use_keybinding": true,
+	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -36,10 +37,8 @@
 		".gometalinter-*"
 	],
 	"font_size": 12,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"ignored_packages": ["Vintage"],
+	"indent_guide_options": ["draw_active"],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"material_theme_compact_panel": true,
@@ -50,5 +49,7 @@
 	"material_theme_titlebar": true,
 	"open_files_in_new_window": false,
 	"scroll_past_end": true,
+	"show_encoding": true,
+	"show_line_endings": true,
 	"theme": "Material-Theme-Darker.sublime-theme"
 }
