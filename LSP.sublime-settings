@@ -57,8 +57,10 @@
 		},
 		"js-lsp":
 		{
-			"command":
-			["typescript-language-server", "--stdio"],
+			"command": [
+				"typescript-language-server",
+				"--stdio"
+			],
 			"enabled": true,
 			"languageId": "javascript",
 			"languages": [
@@ -67,9 +69,7 @@
 					"scopes":
 					[
 						"source.js",
-						"source.jsx",
-						"source.js.babel",
-						"source.js.react"
+						"source.jsx"
 					],
 					"syntaxes":
 					[
@@ -98,9 +98,9 @@
 			]
 		}
 	},
+	"diagnostics_highlight_style": "box",
+	"document_highlight_style": "",
 	"show_diagnostics_count_in_view_status": true,
 	"show_diagnostics_in_view_status": false,
-	"show_references_in_quick_panel": true,
-	"diagnostics_highlight_style": "box",
-	"document_highlight_style": ""
+	"show_references_in_quick_panel": true
 }

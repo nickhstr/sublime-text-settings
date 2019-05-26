@@ -2,17 +2,19 @@
 	"configurations": {
 		"Babel": {
 			"file_extensions": ["js", "mjs"],
+			"hidden": false,
 			"jsx": true,
-			"string_object_keys": true,
 			"name": "JavaScript (Babel)",
-			"hidden": false
+			"scope": "source.js",
+			"string_object_keys": true
 		},
 		"React": {
 			"file_extensions": ["jsx"],
+			"hidden": false,
 			"jsx": true,
-			"string_object_keys": true,
 			"name": "JavaScript (React)",
-			"hidden": false
+			"scope": "source.jsx",
+			"string_object_keys": true
 		}
 	}
 }
