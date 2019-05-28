@@ -37,8 +37,15 @@
 		".gometalinter-*"
 	],
 	"font_size": 12,
-	"ignored_packages": ["Vintage"],
-	"indent_guide_options": ["draw_normal", "draw_active"],
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"material_theme_compact_panel": true,
