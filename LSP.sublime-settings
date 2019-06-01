@@ -88,12 +88,21 @@
 					"scopes":
 					[
 						"source.ts",
+					],
+					"syntaxes":
+					[
+						"Packages/TypeScript Syntax/TypeScript.tmLanguage",
+					]
+				},
+				{
+					"languageId": "typescriptreact",
+					"scopes":
+					[
 						"source.tsx",
 						"source.ts.react"
 					],
 					"syntaxes":
 					[
-						"Packages/TypeScript Syntax/TypeScript.tmLanguage",
 						"Packages/TypeScript Syntax/TypeScriptReact.tmLanguage"
 					]
 				}
