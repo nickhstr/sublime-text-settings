@@ -2,6 +2,7 @@
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+v"], "command": "paste" },
 	{ "keys": ["super+option+h"], "command": "lsp_hover" },
+	{ "keys": ["super+option+i"], "command": "lsp_symbol_definition" },
 	{
 		"keys": ["ctrl+i"],
 		"command": "afn_show_filenames",
