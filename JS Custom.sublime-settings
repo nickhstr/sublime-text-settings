@@ -13,7 +13,7 @@
 			"hidden": false,
 			"jsx": true,
 			"name": "JavaScript (React)",
-			"scope": "source.jsx",
+			"scope": "source.js.react",
 			"string_object_keys": true
 		}
 	}

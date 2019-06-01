@@ -69,7 +69,8 @@
 					"scopes":
 					[
 						"source.js",
-						"source.jsx"
+						"source.jsx",
+						"source.js.react"
 					],
 					"syntaxes":
 					[
@@ -88,6 +89,7 @@
 					[
 						"source.ts",
 						"source.tsx",
+						"source.ts.react"
 					],
 					"syntaxes":
 					[
