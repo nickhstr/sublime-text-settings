@@ -6,8 +6,7 @@
 		{
 			"command":
 			[
-				"node",
-				"/usr/local/lib/node_modules/vscode-css-languageserver-bin/cssServerMain.js",
+				"css-languageserver",
 				"--stdio"
 			],
 			"enabled": true,
