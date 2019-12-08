@@ -21,7 +21,8 @@
 		"*/.git/*",
 		"*/node_modules/*",
 		"*/es/*",
-		"*/lib/*"
+		"*/lib/*",
+		"*/vendor/*"
 	],
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
@@ -39,7 +40,6 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"LSP",
 		"Vintage"
 	],
 	"indent_guide_options":

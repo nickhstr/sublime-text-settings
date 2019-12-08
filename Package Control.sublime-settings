@@ -7,7 +7,6 @@
 	[
 		"A File Icon",
 		"Color Highlight",
-		"ColorPicker",
 		"CSS3",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
@@ -29,6 +28,7 @@
 		"QML",
 		"Sass",
 		"SideBarEnhancements",
+		"sublime_debugger",
 		"SublimeLinter",
 		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-eslint",
@@ -41,5 +41,6 @@
 	],
 	"repositories":
 	[
+		"https://github.com/daveleroy/sublime_debugger.git"
 	]
 }
