@@ -3,7 +3,7 @@
 	{ "keys": ["super+shift+v"], "command": "paste" },
 	{ "keys": ["super+option+h"], "command": "lsp_hover" },
 	{ "keys": ["super+option+i"], "command": "lsp_symbol_definition" },
-	{ "keys": ["super+option+r"], "command": "lsp_symbol_references" },
+	{ "keys": ["super+option+shift+i"], "command": "lsp_symbol_references" },
 	{
 		"keys": ["ctrl+i"],
 		"command": "afn_show_filenames",
