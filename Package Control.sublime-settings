@@ -13,6 +13,7 @@
 		"DotENV",
 		"EditorConfig",
 		"ESLint Fix",
+		"FileDiffs",
 		"Gofmt",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
