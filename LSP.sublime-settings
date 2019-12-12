@@ -1,5 +1,5 @@
 {
-	"auto_show_diagnostics_panel": false,
+	"auto_show_diagnostics_panel": "saved",
 	"clients":
 	{
 		"css-languageserver":
@@ -114,5 +114,6 @@
 	],
 	"show_diagnostics_count_in_view_status": true,
 	"show_diagnostics_in_view_status": false,
-	"show_references_in_quick_panel": true
+	"show_references_in_quick_panel": true,
+	"show_view_status": false
 }
