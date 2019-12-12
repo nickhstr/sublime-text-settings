@@ -15,6 +15,7 @@ try:
 except:
     si = None
 
+YOU = 'You'
 
 class GitBlameStatusbarCommand(sublime_plugin.EventListener):
     def parse_blame(self, blame):
@@ -30,7 +31,7 @@ class GitBlameStatusbarCommand(sublime_plugin.EventListener):
 
             not_committed_match = re.search(not_committed_pattern, user)
             if not_committed_match:
-                user = 'You'
+                user = YOU
 
             date = datetime_match.group(0).strip()
             return (user, date)
@@ -39,17 +40,30 @@ class GitBlameStatusbarCommand(sublime_plugin.EventListener):
 
     def get_blame(self, line, path):
         try:
-            return shell(["git", "blame", "--minimal", "-w",
-                        "-L {0},{0}".format(line), path],
+            return shell(['git', 'blame', '--minimal', '-w',
+                        '-L {0},{0}'.format(line), path],
                         cwd=os.path.dirname(os.path.realpath(path)),
                         startupinfo=si,
                         stderr=subprocess.STDOUT)
         except subprocess.CalledProcessError as e:
             pass
-            # print("Git blame: git error {}:\n{}".format(e.returncode, e.output.decode("UTF-8")))
+            # print('Git blame: git error {}:\n{}'.format(e.returncode, e.output.decode('UTF-8')))
         except Exception as e:
             pass
-            # print("Git blame: Unexpected error:", e)
+            # print('Git blame: Unexpected error:', e)
+
+    def get_current_user(self, path):
+        try:
+            return shell(['git', 'config', 'user.name'],
+                        cwd=os.path.dirname(os.path.realpath(path)),
+                        startupinfo=si,
+                        stderr=subprocess.STDOUT)
+        except subprocess.CalledProcessError as e:
+            pass
+            # print('Git blame: git error {}:\n{}'.format(e.returncode, e.output.decode('UTF-8')))
+        except Exception as e:
+            pass
+            # print('Git blame: Unexpected error:', e)
 
     def time_between(self, d):
         now = datetime.now()
@@ -79,6 +93,7 @@ class GitBlameStatusbarCommand(sublime_plugin.EventListener):
         current_line = view.substr(view.line(view.sel()[0]))
         (row, col) = view.rowcol(view.sel()[0].begin())
         path = view.file_name()
+        curr_user = self.get_current_user(path).decode('utf-8').strip()
         blame = self.get_blame(int(row) + 1, path)
         output = ''
 
@@ -86,6 +101,7 @@ class GitBlameStatusbarCommand(sublime_plugin.EventListener):
             blame = blame.decode('utf-8')
             user, date = self.parse_blame(blame)
             time_since = self.time_between(date)
+            user = YOU if user == curr_user else user
             output = user + ", " + time_since
 
         view.set_status('git_blame', output)
