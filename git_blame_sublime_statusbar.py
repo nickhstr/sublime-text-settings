@@ -40,7 +40,7 @@ class GitBlameStatusbarCommand(sublime_plugin.EventListener):
 
     def get_blame(self, line, path):
         try:
-            return shell(['git', 'blame', '--minimal', '-w',
+            return shell(['git', 'blame', '--minimal',
                         '-L {0},{0}'.format(line), path],
                         cwd=os.path.dirname(os.path.realpath(path)),
                         startupinfo=si,
@@ -93,12 +93,13 @@ class GitBlameStatusbarCommand(sublime_plugin.EventListener):
         current_line = view.substr(view.line(view.sel()[0]))
         (row, col) = view.rowcol(view.sel()[0].begin())
         path = view.file_name()
-        curr_user = self.get_current_user(path).decode('utf-8').strip()
+        curr_user = self.get_current_user(path)
         blame = self.get_blame(int(row) + 1, path)
         output = ''
 
-        if blame:
+        if blame and curr_user:
             blame = blame.decode('utf-8')
+            curr_user = curr_user.decode('utf-8').strip()
             user, date = self.parse_blame(blame)
             time_since = self.time_between(date)
             user = YOU if user == curr_user else user
