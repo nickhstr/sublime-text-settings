@@ -24,11 +24,11 @@ class GitBlameStatusbarCommand(sublime_plugin.EventListener):
 
         user_match = re.search(user_pattern, blame)
         datetime_match = re.search(datetime_pattern, blame)
-        not_committed_match = re.search(not_committed_pattern, blame)
 
         if user_match and datetime_match:
             user = user_match.group(0).strip()
 
+            not_committed_match = re.search(not_committed_pattern, user)
             if not_committed_match:
                 user = 'You'
 
