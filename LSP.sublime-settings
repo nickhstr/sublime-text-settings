@@ -1,5 +1,5 @@
 {
-	"auto_show_diagnostics_panel": "saved",
+	"auto_show_diagnostics_panel": "never",
 	"clients":
 	{
 		"css-languageserver":
