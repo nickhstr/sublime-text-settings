@@ -110,6 +110,7 @@
 	},
 	"diagnostics_highlight_style": "box",
 	"disabled_capabilities": [
+		"colorProvider",
 		"documentHighlight"
 	],
 	"show_diagnostics_count_in_view_status": true,
