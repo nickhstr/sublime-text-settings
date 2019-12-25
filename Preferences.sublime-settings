@@ -61,5 +61,6 @@
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "Material-Theme-Darker.sublime-theme"
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": true
 }

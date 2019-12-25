@@ -35,6 +35,7 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-golangcilint",
 		"SublimeLinter-json",
+		"SublimeLinter-pylint",
 		"SublimeLinter-stylelint",
 		"SyncedSideBar",
 		"Terminal",

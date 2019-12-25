@@ -54,15 +54,21 @@
 				"Packages/Go/Go.sublime-syntax"
 			]
 		},
+		"pyls":
+		{
+			"enabled": true
+		},
 		"typescript-language-server":
 		{
-			"command": [
+			"command":
+			[
 				"typescript-language-server",
 				"--stdio"
 			],
 			"enabled": true,
 			"languageId": "javascript",
-			"languages": [
+			"languages":
+			[
 				{
 					"languageId": "javascript",
 					"scopes":
@@ -86,11 +92,11 @@
 					"languageId": "typescript",
 					"scopes":
 					[
-						"source.ts",
+						"source.ts"
 					],
 					"syntaxes":
 					[
-						"Packages/TypeScript Syntax/TypeScript.tmLanguage",
+						"Packages/TypeScript Syntax/TypeScript.tmLanguage"
 					]
 				},
 				{
@@ -109,7 +115,8 @@
 		}
 	},
 	"diagnostics_highlight_style": "box",
-	"disabled_capabilities": [
+	"disabled_capabilities":
+	[
 		"colorProvider",
 		"documentHighlight"
 	],
