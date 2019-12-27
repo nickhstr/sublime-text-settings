@@ -56,7 +56,20 @@
 		},
 		"pyls":
 		{
-			"enabled": true
+			"command": ["pyls"],
+			"enabled": true,
+			"languageId": "python",
+			"scopes": ["source.python"],
+			"settings": {
+			  "pyls": {
+			      "plugins": {
+			          "pyls_mypy": {
+			              "enabled": true
+			          }
+			      }
+			  }
+			},
+			"syntaxes": ["Packages/Python/Python.sublime-syntax", "Packages/MagicPython/grammars/MagicPython.tmLanguage", "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"]
 		},
 		"typescript-language-server":
 		{
