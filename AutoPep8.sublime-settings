@@ -1,3 +1,4 @@
 {
-    "format_on_save": true
+    "format_on_save": true,
+    "max-line-length": 100
 }
