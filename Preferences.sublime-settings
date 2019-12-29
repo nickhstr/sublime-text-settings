@@ -1,6 +1,7 @@
 {
 	"afn_use_keybinding": true,
 	"always_show_minimap_viewport": true,
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, comment.block.documentation",
 	"binary_file_patterns":
 	[
 		"*.jpg",
