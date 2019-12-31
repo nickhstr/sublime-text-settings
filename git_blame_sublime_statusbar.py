@@ -129,30 +129,45 @@ def time_between(date):
     return "a few seconds ago"
 
 
+def update_status_bar(view):
+    """
+    Updates the status bar with the current line's Git blame info.
+
+    :type       view:  sublime.View
+    """
+    try:
+        row, _ = view.rowcol(view.sel()[0].begin())
+        path = view.file_name()
+        curr_user = get_current_user(path)
+        blame = get_blame(int(row) + 1, path)
+        output = ''
+
+        if blame and curr_user:
+            blame = blame.decode('utf-8')
+            curr_user = curr_user.decode('utf-8').strip()
+            user, date = parse_blame(blame)
+            time_since = time_between(date)
+            user = YOU if user == curr_user else user
+            output = user + ", " + time_since
+
+        view.set_status('git_blame', output)
+    except:
+        pass
+
+
 class GitBlameStatusbarCommand(sublime_plugin.EventListener):
     """
     Plugin to update status bar view with Git blame information.
     """
 
+    def on_load_async(self, view):
+        """
+        Update status bar when the file loads.
+        """
+        update_status_bar(view)
+
     def on_selection_modified_async(self, view):
         """
-        Updates the status bar.
+        Update status bar whenever the currently-selected line changes.
         """
-        try:
-            row, _ = view.rowcol(view.sel()[0].begin())
-            path = view.file_name()
-            curr_user = get_current_user(path)
-            blame = get_blame(int(row) + 1, path)
-            output = ''
-
-            if blame and curr_user:
-                blame = blame.decode('utf-8')
-                curr_user = curr_user.decode('utf-8').strip()
-                user, date = parse_blame(blame)
-                time_since = time_between(date)
-                user = YOU if user == curr_user else user
-                output = user + ", " + time_since
-
-            view.set_status('git_blame', output)
-        except:
-            pass
+        update_status_bar(view)
