@@ -110,7 +110,8 @@
 					],
 					"syntaxes":
 					[
-						"Packages/TypeScript Syntax/TypeScript.tmLanguage"
+						"Packages/TypeScript Syntax/TypeScript.tmLanguage",
+						"Packages/zzz A File Icon zzz/aliases/UnitTest (TypeScript).sublime-syntax"
 					]
 				},
 				{
@@ -123,7 +124,8 @@
 					],
 					"syntaxes":
 					[
-						"Packages/TypeScript Syntax/TypeScriptReact.tmLanguage"
+						"Packages/TypeScript Syntax/TypeScriptReact.tmLanguage",
+						"Packages/zzz A File Icon zzz/aliases/UnitTest (TypeScript React).sublime-syntax"
 					]
 				}
 			]
