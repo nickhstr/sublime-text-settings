@@ -41,8 +41,8 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"Debugger",
 		"ProjectManager",
-		"sublime_debugger",
 		"Vintage"
 	],
 	"indent_guide_options":
