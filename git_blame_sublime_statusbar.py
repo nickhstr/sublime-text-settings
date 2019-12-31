@@ -26,24 +26,27 @@ def parse_blame(blame):
     :returns:   User and date last edited.
     :rtype:     Tuple[str, str]
     """
-    user_pattern = r'[\w ]+(?=(\d{4}-\d{2}-\d{2}))'
+    user, date = '', ''
+
+    # match user name, preceded by `(`, and followed by a date
+    user_pattern = r'(?<=\()[\w\- ]+(?=(\d{4}-\d{2}-\d{2}))'
+    # match the user name when a line change has not been committed yet
+    not_committed_pattern = 'Not Committed Yet'
+    # match full date and time
     datetime_pattern = r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}'
-    not_committed_pattern = 'Not Committed'
 
     user_match = re.search(user_pattern, blame)
+    not_committed_match = re.search(not_committed_pattern, blame)
     datetime_match = re.search(datetime_pattern, blame)
 
-    if user_match and datetime_match:
+    if datetime_match:
+        date = datetime_match.group(0).strip()
+    if not_committed_match:
+        user = YOU
+    elif user_match:
         user = user_match.group(0).strip()
 
-        not_committed_match = re.search(not_committed_pattern, user)
-        if not_committed_match:
-            user = YOU
-
-        date = datetime_match.group(0).strip()
-        return (user, date)
-
-    return ('', '')
+    return (user, date)
 
 
 def get_blame(line, path):
