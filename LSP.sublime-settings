@@ -94,11 +94,9 @@
 					"syntaxes":
 					[
 						"Packages/JavaScript/JavaScript.sublime-syntax",
-						"Packages/babel-sublime/JavaScript (Babel).tmLanguage",
 						"Packages/zzz A File Icon zzz/aliases/JavaScript (Webpack).sublime-syntax",
 						"Packages/zzz A File Icon zzz/aliases/JavaScript (ESLint).sublime-syntax",
 						"Packages/zzz A File Icon zzz/aliases/UnitTest (JavaScript).sublime-syntax",
-						"Packages/Naomi/syntaxes/naomi.fjsx15.sublime-syntax",
 						"Packages/User/JS Custom/Syntaxes/Babel.sublime-syntax",
 						"Packages/User/JS Custom/Syntaxes/React.sublime-syntax"
 					]
@@ -107,7 +105,8 @@
 					"languageId": "typescript",
 					"scopes":
 					[
-						"source.ts"
+						"source.ts",
+						"source.ts.unittest"
 					],
 					"syntaxes":
 					[
@@ -119,7 +118,8 @@
 					"scopes":
 					[
 						"source.tsx",
-						"source.ts.react"
+						"source.ts.react",
+						"source.ts.unittest"
 					],
 					"syntaxes":
 					[
