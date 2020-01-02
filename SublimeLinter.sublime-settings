@@ -3,7 +3,8 @@
 	"linters": {
 		"eslint": {
 			"excludes": [
-				"*.md"
+				"*.md",
+                "*/node_modules/*"
 			]
 		}
 	}
