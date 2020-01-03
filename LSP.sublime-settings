@@ -56,20 +56,46 @@
 		},
 		"pyls":
 		{
-			"command": ["pyls"],
+			"command":
+			[
+				"pyls"
+			],
 			"enabled": true,
 			"languageId": "python",
-			"scopes": ["source.python"],
-			"settings": {
-			  "pyls": {
-			      "plugins": {
-			          "pyls_mypy": {
-			              "enabled": true
-			          }
-			      }
-			  }
+			"scopes":
+			[
+				"source.python"
+			],
+			"settings":
+			{
+				"pyls":
+				{
+					"plugins":
+					{
+						"pyls_mypy":
+						{
+							"enabled": true
+						}
+					}
+				}
 			},
-			"syntaxes": ["Packages/Python/Python.sublime-syntax", "Packages/MagicPython/grammars/MagicPython.tmLanguage", "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"]
+			"syntaxes":
+			[
+				"Packages/Python/Python.sublime-syntax",
+				"Packages/MagicPython/grammars/MagicPython.tmLanguage",
+				"Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+			]
+		},
+		"rls":
+		{
+			"enabled": true,
+			"command":
+			[
+				"rustup",
+				"run",
+				"stable",
+				"rls"
+			]
 		},
 		"typescript-language-server":
 		{
