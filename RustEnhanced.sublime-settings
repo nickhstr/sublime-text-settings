@@ -3,5 +3,6 @@
 	[
 		"rs"
 	],
-    "lsp_format_on_save": true
+    "lsp_format_on_save": true,
+    "rust_syntax_checking_method": "clippy"
 }

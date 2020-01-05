@@ -5,16 +5,14 @@
 			"hidden": false,
 			"jsx": true,
 			"name": "JavaScript (Babel)",
-			"scope": "source.js",
-			"string_object_keys": true
+			"scope": "source.js"
 		},
 		"React": {
 			"file_extensions": ["jsx"],
 			"hidden": false,
 			"jsx": true,
 			"name": "JavaScript (React)",
-			"scope": "source.js.react",
-			"string_object_keys": true
+			"scope": "source.js.react"
 		}
 	}
 }
