@@ -26,7 +26,7 @@
 		"*/vendor/*"
 	],
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
@@ -41,6 +41,7 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"Material Theme",
 		"ProjectManager",
 		"Vintage"
 	],
@@ -61,6 +62,6 @@
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
