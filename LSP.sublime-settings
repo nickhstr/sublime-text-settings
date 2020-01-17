@@ -88,14 +88,11 @@
 		},
 		"rls":
 		{
-			"enabled": true,
-			"command":
-			[
-				"rustup",
-				"run",
-				"stable",
-				"rls"
-			]
+			"enabled": false
+		},
+		"ra-lsp":
+		{
+			"enabled": true
 		},
 		"typescript-language-server":
 		{
