@@ -1,5 +1,5 @@
 // Settings in here override those in "${packages}/DocBlockr 2020 (DoxyDoxygen powered)/Doxy.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-    "preferred_line_length": 120
+    "preferred_line_length": 100
 }
