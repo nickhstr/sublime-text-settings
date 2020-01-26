@@ -50,8 +50,6 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
 	"material_theme_compact_panel": true,
 	"material_theme_compact_sidebar": true,
 	"material_theme_disable_folder_animation": true,
