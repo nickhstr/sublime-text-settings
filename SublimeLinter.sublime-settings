@@ -5,7 +5,8 @@
 			"excludes": [
 				"*.md",
                 "*/node_modules/*"
-			]
-		}
+			],
+            "selector": "source.js, source.jsx, source.mjs, source.ts, source.tsx"
+		},
 	}
 }
