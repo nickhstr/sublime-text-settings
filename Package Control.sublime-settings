@@ -44,7 +44,8 @@
 		"Terminal",
 		"TodoReview",
 		"TOML",
-		"TypeScript Syntax"
+		"TypeScript Syntax",
+		"URLEncode"
 	],
 	"repositories":
 	[
