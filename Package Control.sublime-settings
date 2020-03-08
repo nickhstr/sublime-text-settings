@@ -43,6 +43,7 @@
 		"SublimeLinter-pylint",
 		"SublimeLinter-stylelint",
 		"SyncedSideBar",
+		"SyntaxManager",
 		"Terminal",
 		"TodoReview",
 		"TOML",
