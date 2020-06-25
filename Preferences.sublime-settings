@@ -43,6 +43,7 @@
 	[
 		"Material Theme",
 		"ProjectManager",
+		"SublimeLinter-eslint",
 		"Vintage"
 	],
 	"indent_guide_options":
