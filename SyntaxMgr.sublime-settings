@@ -1,0 +1,11 @@
+{
+    "syntaxmgr_settings":[
+        {
+            "platforms": ["linux"],
+            "settings": {
+                "font_face": "MesloLGS Nerd Font Mono",
+                "font_size": 10
+            }
+        }
+    ]
+}
